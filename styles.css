@@ -1,0 +1,278 @@
+body {
+    color: white;
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #e1e1e1;
+    margin-top: 20px;
+}
+
+.about-me h1 {
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-container {
+    display: flex;
+    border-bottom: 2px solid #333;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-container img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-container .description img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.description {
+    padding: 30px;
+    font-size: 18px;
+    color: #ccc;
+    width: 70%;
+}
+
+.description h2 {
+    color: #fff;
+}
+
+.description p {
+    line-height: 1.6;
+}
+
+.education {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.education h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+
+.education ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.education li {
+    list-style-type: none;
+    font-size: 18px;
+    margin: 8px 0;
+    color: #bbb;
+    text-align: start;
+    margin-left: 40%;
+}
+
+.experience {
+    margin: 50px auto;
+    width: 80%;
+    color: #fff;
+}
+
+.experience h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.experience p {
+    font-size: 18px;
+    margin-left: 35%;
+}
+
+.experience ul {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+.experience li {
+    margin: 8px 0;
+    list-style-type: none;
+}
+
+.skills {
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.skills h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.language-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.language-list li {
+    margin: 10px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    font-weight: bold;
+    width: 150px;
+    color: #4caf50;
+}
+
+.progress-bar-container {
+    width: 70%;
+    background-color: #333;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.progress-bar {
+    height: 15px;
+    background-color: #4caf50;
+    width: 0;
+    border-radius: 8px;
+    transition: width 1s ease;
+}
+
+.projects h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: orange;
+}
+
+.projects {
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.projects h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    font-size: 18px;
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.projects a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #4caf50;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 8px 16px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projects a:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 8px 16px;
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #044174;
+    color: #fff;
+}
+
+.contact img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.contact a:hover img {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
